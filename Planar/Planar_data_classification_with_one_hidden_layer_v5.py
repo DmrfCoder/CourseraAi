@@ -250,7 +250,7 @@ def train(X, Y):
     parameters = nn_model(X, Y, n_h=4, num_iterations=10000, print_cost=True)
 
     # Plot the decision boundary
-    plot_decision_boundary(lambda x: predict(parameters, x.T), X, Y)
+    plot_decision_boundary(lambda x: predict(parameters, x.T), X, Y.ravel())
     plt.title("Decision Boundary for hidden layer size " + str(4))
 
     predictions = predict(parameters, X)
@@ -305,7 +305,7 @@ def load_resize_dataset():
 
     clf = sklearn.linear_model.LogisticRegressionCV()
     clf.fit(X.T, Y.T)
-    plot_decision_boundary(lambda x: clf.predict(x), X, Y)
+    plot_decision_boundary(lambda x: clf.predict(x), X, Y.ravel())
     plt.title("Logistic Regression")
 
     LR_predictions = clf.predict(X.T)
