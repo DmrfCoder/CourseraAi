@@ -124,5 +124,27 @@ def testContourf():
     plt.show()
 
 
+
+def testDivide():
+    print()
+    x = np.array([[1, 3], [5, 7]])
+    print(x)
+    d_x=np.divide(x,2)
+    print(d_x)
+    d_x2=x/2
+    print(d_x2)
+
+    d_x3=np.true_divide(x,2)
+    print(d_x3)
+
+    d_x4=np.floor_divide(x,2)
+    print(d_x4)
+
+    d_x5=x//2
+    print(d_x5)
+
+
+
+
 if __name__ == '__main__':
     testContourf()
