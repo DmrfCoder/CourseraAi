@@ -144,7 +144,60 @@ def testDivide():
     print(d_x5)
 
 
+def testDropout():
+    keep_prob=0.5
+    np.random.seed(1)
+    a=np.random.rand(4, 6)
+    print(a)
+    d1 = np.random.rand(4, 6)
+
+    d1=d1<keep_prob
+
+
+
+
+    w=np.random.rand(4, 6)
+
+    a=np.multiply(a,d1)
+    print('')
+    print(a)
+    print('')
+
+
+    a2=w*a+2
+
+    a=a/keep_prob
+    a3=w*a+2
+    m1 = np.mean(a2)
+    print(a)
+    m2=np.mean(a3)
+
+
+
+
+
+def testInitW():
+    np.random.seed(1)
+    a = np.random.randn(4, 6)
+    fangcha1=a.var()
+    print(fangcha1)
+    a=a*np.sqrt(1/4)
+    fangcha2=a.var()
+    print(fangcha2)
+    print(0.25**2)
+
+
+def testSquare():
+    print('')
+    x = np.arange(5, 10)
+    print(x)
+    y=np.square(x)
+    print(y)
+
 
 
 if __name__ == '__main__':
-    testContourf()
+    #testContourf()
+    print('Key Interrupt Demo')
+    print('Please input some chars:')
+    a=input()
