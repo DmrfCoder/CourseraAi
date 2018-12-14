@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cac0bcf4-1ac4-41c1-9f90-2b4eec3bc60c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/GradientChecking/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GradientChecking/gc_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GradientChecking/gradient_checking.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GradientChecking/testCases.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/codeTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Regularization/regularization.py" beforeDir="false" afterPath="$PROJECT_DIR$/Regularization/regularization.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,26 +56,26 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="16" />
-          <entry key="py" value="4980" />
+          <entry key="py" value="5015" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="16" />
-          <entry key="Python" value="4980" />
+          <entry key="Python" value="5015" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="AlchemyModelDependency/#DeepLearning" value="1" />
           <entry key="md" value="5" />
-          <entry key="py" value="82" />
+          <entry key="py" value="83" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="5" />
-          <entry key="Python" value="81" />
+          <entry key="Python" value="82" />
           <entry key="UML" value="2" />
         </counts>
       </usages-collector>
@@ -88,14 +83,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GradientChecking/gradient_checking.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="157" column="4" selection-start-line="157" selection-start-column="4" selection-end-line="157" selection-end-column="40" />
+            <state relative-caret-position="109">
+              <caret line="173" column="12" lean-forward="true" selection-start-line="173" selection-start-column="12" selection-end-line="173" selection-end-column="12" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <marker date="1544750562479" expanded="true" signature="7989:8218" ph="..." />
+                <marker date="1544759035228" expanded="true" signature="7319:7548" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Regularization/regularization.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="269" lean-forward="true" selection-start-line="226" selection-end-line="269" />
+              <folding>
+                <element signature="e#0#18#0" expanded="true" />
+                <marker date="1544774581926" expanded="true" signature="5518:5709" ph="..." />
+                <marker date="1544774581926" expanded="true" signature="6686:6863" ph="..." />
+                <marker date="1544774581926" expanded="true" signature="8280:8580" ph="..." />
+                <marker date="1544774581926" expanded="true" signature="10410:10673" ph="..." />
+                <marker date="1544774581926" expanded="true" signature="10724:10725" ph="..." />
+                <marker date="1544774581926" expanded="true" signature="11687:12165" ph="..." />
               </folding>
             </state>
           </provider>
@@ -143,9 +156,9 @@
         <option value="$PROJECT_DIR$/Regularization/__init__.py" />
         <option value="$PROJECT_DIR$/Regularization/Regularization.py" />
         <option value="$PROJECT_DIR$/Regularization/reg_utils.py" />
-        <option value="$PROJECT_DIR$/Regularization/regularization.py" />
         <option value="$PROJECT_DIR$/codeTest.py" />
         <option value="$PROJECT_DIR$/GradientChecking/gradient_checking.py" />
+        <option value="$PROJECT_DIR$/Regularization/regularization.py" />
       </list>
     </option>
   </component>
@@ -405,12 +418,12 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18884121" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18884121" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.10722891" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.07590362" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -419,7 +432,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.14337349" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2554217" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -653,17 +666,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Regularization/regularization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="331" column="24" selection-start-line="331" selection-start-column="24" selection-end-line="331" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Regularization/reg_utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
           <caret line="242" selection-start-line="242" selection-end-line="242" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -703,11 +712,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/GradientChecking/gradient_checking.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="157" column="4" selection-start-line="157" selection-start-column="4" selection-end-line="157" selection-end-column="40" />
+        <state relative-caret-position="109">
+          <caret line="173" column="12" lean-forward="true" selection-start-line="173" selection-start-column="12" selection-end-line="173" selection-end-column="12" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <marker date="1544750562479" expanded="true" signature="7989:8218" ph="..." />
+            <marker date="1544759035228" expanded="true" signature="7319:7548" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Regularization/regularization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="269" lean-forward="true" selection-start-line="226" selection-end-line="269" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <marker date="1544774581926" expanded="true" signature="5518:5709" ph="..." />
+            <marker date="1544774581926" expanded="true" signature="6686:6863" ph="..." />
+            <marker date="1544774581926" expanded="true" signature="8280:8580" ph="..." />
+            <marker date="1544774581926" expanded="true" signature="10410:10673" ph="..." />
+            <marker date="1544774581926" expanded="true" signature="10724:10725" ph="..." />
+            <marker date="1544774581926" expanded="true" signature="11687:12165" ph="..." />
           </folding>
         </state>
       </provider>

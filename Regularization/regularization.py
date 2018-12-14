@@ -118,20 +118,18 @@ def forward_propagation_with_dropout(X, parameters, keep_prob=0.5):
     # LINEAR -> RELU -> LINEAR -> RELU -> LINEAR -> SIGMOID
     Z1 = np.dot(W1, X) + b1
     A1 = relu(Z1)
-    ### START CODE HERE ### (approx. 4 lines)         # Steps 1-4 below correspond to the Steps 1-4 described above.
+    # Steps 1-4 below correspond to the Steps 1-4 described above.
     D1 = np.random.rand(A1.shape[0], A1.shape[1])  # Step 1: initialize matrix D1 = np.random.rand(..., ...)
     D1 = D1 < keep_prob  # Step 2: convert entries of D1 to 0 or 1 (using keep_prob as the threshold)
     A1 = np.multiply(A1, D1)  # Step 3: shut down some neurons of A1
     A1 = A1 / keep_prob  # Step 4: scale the value of neurons that haven't been shut down
-    ### END CODE HERE ###
     Z2 = np.dot(W2, A1) + b2
     A2 = relu(Z2)
-    ### START CODE HERE ### (approx. 4 lines)
+    ### (approx. 4 lines)
     D2 = np.random.rand(A2.shape[0], A2.shape[1])  # Step 1: initialize matrix D2 = np.random.rand(..., ...)
-    D2 = D2 <keep_prob  # Step 2: convert entries of D2 to 0 or 1 (using keep_prob as the threshold)
+    D2 = D2 < keep_prob  # Step 2: convert entries of D2 to 0 or 1 (using keep_prob as the threshold)
     A2 = A2 * D2  # Step 3: shut down some neurons of A2
     A2 = A2 / keep_prob  # Step 4: scale the value of neurons that haven't been shut down
-    ### END CODE HERE ###
     Z3 = np.dot(W3, A2) + b3
     A3 = sigmoid(Z3)
 
@@ -167,7 +165,7 @@ def compute_cost_with_regularization(A3, Y, parameters, lambd):
     cross_entropy_cost = compute_cost(A3, Y)  # This gives you the cross-entropy part of the cost
 
     L2_regularization_cost = (1 / m) * (lambd / 2) * (
-                np.sum(np.square(W1)) + np.sum(np.square(W2)) + np.sum(np.square(W3)))
+            np.sum(np.square(W1)) + np.sum(np.square(W2)) + np.sum(np.square(W3)))
 
     cost = cross_entropy_cost + L2_regularization_cost
 
@@ -199,23 +197,17 @@ def backward_propagation_with_regularization(X, Y, cache, lambd):
 
     dZ3 = A3 - Y
 
-    ### START CODE HERE ### (approx. 1 line)
     dW3 = 1. / m * np.dot(dZ3, A2.T) + (lambd / m) * W3
-    ### END CODE HERE ###
     db3 = 1. / m * np.sum(dZ3, axis=1, keepdims=True)
 
     dA2 = np.dot(W3.T, dZ3)
     dZ2 = np.multiply(dA2, np.int64(A2 > 0))
-    ### START CODE HERE ### (approx. 1 line)
     dW2 = 1. / m * np.dot(dZ2, A1.T) + (lambd / m) * W2
-    ### END CODE HERE ###
     db2 = 1. / m * np.sum(dZ2, axis=1, keepdims=True)
 
     dA1 = np.dot(W2.T, dZ2)
     dZ1 = np.multiply(dA1, np.int64(A1 > 0))
-    ### START CODE HERE ### (approx. 1 line)
     dW1 = 1. / m * np.dot(dZ1, X.T) + (lambd / m) * W1
-    ### END CODE HERE ###
     db1 = 1. / m * np.sum(dZ1, axis=1, keepdims=True)
 
     gradients = {"dZ3": dZ3, "dW3": dW3, "db3": db3, "dA2": dA2,
@@ -255,19 +247,17 @@ def backward_propagation_with_dropout(X, Y, cache, keep_prob):
     dW3 = 1. / m * np.dot(dZ3, A2.T)
     db3 = 1. / m * np.sum(dZ3, axis=1, keepdims=True)
     dA2 = np.dot(W3.T, dZ3)
-    ### START CODE HERE ### (≈ 2 lines of code)
+    ### (≈ 2 lines of code)
     dA2 = dA2 * D2  # Step 1: Apply mask D2 to shut down the same neurons as during the forward propagation
     dA2 = dA2 / keep_prob  # Step 2: Scale the value of neurons that haven't been shut down
-    ### END CODE HERE ###
     dZ2 = np.multiply(dA2, np.int64(A2 > 0))
     dW2 = 1. / m * np.dot(dZ2, A1.T)
     db2 = 1. / m * np.sum(dZ2, axis=1, keepdims=True)
 
     dA1 = np.dot(W2.T, dZ2)
-    ### START CODE HERE ### (≈ 2 lines of code)
-    dA1 = dA1 * D1  # Step 1: Apply mask D1 to shut down the same neurons as during the forward propagation
+    ### (≈ 2 lines of code)
+    dA1 = dA1 * D1  # Step 1: Apply mask D1 to shut down thegit a same neurons as during the forward propagation
     dA1 = dA1 / keep_prob  # Step 2: Scale the value of neurons that haven't been shut down
-    ### END CODE HERE ###
     dZ1 = np.multiply(dA1, np.int64(A1 > 0))
     dW1 = 1. / m * np.dot(dZ1, X.T)
     db1 = 1. / m * np.sum(dZ1, axis=1, keepdims=True)
