@@ -98,7 +98,7 @@ def test_ravel_flatten():
 
 # 定义等高线高度函数
 def f(x, y):
-    return x-y
+    return x - y
 
 
 def testContourf():
@@ -112,7 +112,7 @@ def testContourf():
     X, Y = np.meshgrid(x, y)
 
     # 填充等高线的颜色
-    plt.contourf(X, Y, f(X, Y), 4,alpha=0.75, cmap=plt.cm.Spectral)
+    plt.contourf(X, Y, f(X, Y), 4, alpha=0.75, cmap=plt.cm.Spectral)
     # 绘制等高线
     C = plt.contour(X, Y, f(X, Y), 4, colors='black', linewidth=0.5)
     # 绘制等高线数据
@@ -124,80 +124,102 @@ def testContourf():
     plt.show()
 
 
-
 def testDivide():
     print()
     x = np.array([[1, 3], [5, 7]])
     print(x)
-    d_x=np.divide(x,2)
+    d_x = np.divide(x, 2)
     print(d_x)
-    d_x2=x/2
+    d_x2 = x / 2
     print(d_x2)
 
-    d_x3=np.true_divide(x,2)
+    d_x3 = np.true_divide(x, 2)
     print(d_x3)
 
-    d_x4=np.floor_divide(x,2)
+    d_x4 = np.floor_divide(x, 2)
     print(d_x4)
 
-    d_x5=x//2
+    d_x5 = x // 2
     print(d_x5)
 
 
 def testDropout():
-    keep_prob=0.5
+    keep_prob = 0.5
     np.random.seed(1)
-    a=np.random.rand(4, 6)
+    a = np.random.rand(4, 6)
     print(a)
     d1 = np.random.rand(4, 6)
 
-    d1=d1<keep_prob
+    d1 = d1 < keep_prob
 
+    w = np.random.rand(4, 6)
 
-
-
-    w=np.random.rand(4, 6)
-
-    a=np.multiply(a,d1)
+    a = np.multiply(a, d1)
     print('')
     print(a)
     print('')
 
+    a2 = w * a + 2
 
-    a2=w*a+2
-
-    a=a/keep_prob
-    a3=w*a+2
+    a = a / keep_prob
+    a3 = w * a + 2
     m1 = np.mean(a2)
     print(a)
-    m2=np.mean(a3)
-
-
-
+    m2 = np.mean(a3)
 
 
 def testInitW():
     np.random.seed(1)
     a = np.random.randn(4, 6)
-    fangcha1=a.var()
+    fangcha1 = a.var()
     print(fangcha1)
-    a=a*np.sqrt(1/4)
-    fangcha2=a.var()
+    a = a * np.sqrt(1 / 4)
+    fangcha2 = a.var()
     print(fangcha2)
-    print(0.25**2)
+    print(0.25 ** 2)
 
 
 def testSquare():
     print('')
     x = np.arange(5, 10)
     print(x)
-    y=np.square(x)
+    y = np.square(x)
     print(y)
 
 
+def testLinalgNorm():
+    print('')
+    x = np.array([[1, 2, 3],
+                  [4, 5, 6]])
+
+    # 求的是列的和的最大值，结果应为max(5,7,9)=9
+    a1 = np.linalg.norm(x, ord=1, keepdims=False)
+    print(a1)
+
+    a2 = np.linalg.norm(x, ord=2, keepdims=False)
+    print(a2)
+
+    a3 = np.linalg.norm(x, ord=np.inf, keepdims=False)
+    print(a3)
+
+
+def testCopy():
+    print('')
+    a = np.array([[1, 2, 3, 4], [5, 6, 7, 8]])
+    b=np.copy(a)
+    c=a
+    print(b)
+    print(a)
+    b[0][0]=100
+    print(a)
+    c[0][0]=101
+    print(a)
+    a[0][0]=200
+    print(b)
+    print(c)
 
 if __name__ == '__main__':
-    #testContourf()
+    # testContourf()
     print('Key Interrupt Demo')
     print('Please input some chars:')
-    a=input()
+    a = input()

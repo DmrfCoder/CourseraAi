@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cac0bcf4-1ac4-41c1-9f90-2b4eec3bc60c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Initialization/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Initialization/init_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Initialization/initalization.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Regularization/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Regularization/reg_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Regularization/regularization.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Regularization/testCases.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/data.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GradientChecking/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GradientChecking/gc_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GradientChecking/gradient_checking.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GradientChecking/testCases.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/codeTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/codeTest.py" afterDir="false" />
@@ -21,10 +17,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/DeepLearning$main.coverage" NAME="main Coverage Results" MODIFIED="1541983042563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Logistic Regression with a Neural Network mindset v5" />
     <SUITE FILE_PATH="coverage/DeepLearning$pytest_for_deep_netural_network_test_L_model_backward.coverage" NAME="pytest for deep_netural_network.test_L_model_backward Coverage Results" MODIFIED="1543281966074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepNeuralNetWork" />
     <SUITE FILE_PATH="coverage/DeepLearning$pytest_for_codeTest_testDropout.coverage" NAME="pytest for codeTest.testDropout Coverage Results" MODIFIED="1544628425722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DeepLearning$pytest_for_deep_netural_network_test_initialize_parameters.coverage" NAME="pytest for deep_netural_network.test_initialize_parameters Coverage Results" MODIFIED="1542673467204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepNeuralNetWork" />
     <SUITE FILE_PATH="coverage/DeepLearning$codeTest.coverage" NAME="codeTest Coverage Results" MODIFIED="1542170920941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DeepLearning$initalization.coverage" NAME="initalization Coverage Results" MODIFIED="1544683301266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Initialization" />
     <SUITE FILE_PATH="coverage/DeepLearning$pytest_for_deep_netural_network_test_linear_activation_backward.coverage" NAME="pytest for deep_netural_network.test_linear_activation_backward Coverage Results" MODIFIED="1542965752079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepNeuralNetWork" />
@@ -37,51 +31,56 @@
     <SUITE FILE_PATH="coverage/DeepLearning$pytest_for_codeTest_testDivide.coverage" NAME="pytest for codeTest.testDivide Coverage Results" MODIFIED="1542966955885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DeepLearning$pytest_for_deep_netural_network_test_linear_forward.coverage" NAME="pytest for deep_netural_network.test_linear_forward Coverage Results" MODIFIED="1542963257998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepNeuralNetWork" />
     <SUITE FILE_PATH="coverage/DeepLearning$pytest_for_deep_netural_network_test_linear_activation_forward.coverage" NAME="pytest for deep_netural_network.test_linear_activation_forward Coverage Results" MODIFIED="1542963765008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepNeuralNetWork" />
+    <SUITE FILE_PATH="coverage/DeepLearning$Regularization.coverage" NAME="Regularization Coverage Results" MODIFIED="1544700333767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Regularization" />
+    <SUITE FILE_PATH="coverage/DeepLearning$pytest_in_codeTest_py.coverage" NAME="pytest in codeTest.py Coverage Results" MODIFIED="1544627247147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DeepLearning$main.coverage" NAME="main Coverage Results" MODIFIED="1541983042563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Logistic Regression with a Neural Network mindset v5" />
+    <SUITE FILE_PATH="coverage/DeepLearning$pytest_for_deep_netural_network_test_initialize_parameters.coverage" NAME="pytest for deep_netural_network.test_initialize_parameters Coverage Results" MODIFIED="1542673467204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepNeuralNetWork" />
+    <SUITE FILE_PATH="coverage/DeepLearning$pytest_for_codeTest_testCopy.coverage" NAME="pytest for codeTest.testCopy Coverage Results" MODIFIED="1544749762021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/DeepLearning$gradient_checking.coverage" NAME="gradient_checking Coverage Results" MODIFIED="1544758861108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GradientChecking" />
     <SUITE FILE_PATH="coverage/DeepLearning$demo.coverage" NAME="demo Coverage Results" MODIFIED="1544587495394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DeepLearning$Logistic_Regression_With_a_Neural_Network_mindset_v5.coverage" NAME="Logistic_Regression_With_a_Neural_Network_mindset_v5 Coverage Results" MODIFIED="1543546565418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Logistic" />
+    <SUITE FILE_PATH="coverage/DeepLearning$pytest_for_codeTest_testLinalgNorm.coverage" NAME="pytest for codeTest.testLinalgNorm Coverage Results" MODIFIED="1544705855882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DeepLearning$pytest_for_deep_netural_network_test_update_parameters.coverage" NAME="pytest for deep_netural_network.test_update_parameters Coverage Results" MODIFIED="1543282194020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepNeuralNetWork" />
     <SUITE FILE_PATH="coverage/DeepLearning$pytest_in_deep_netural_network_py.coverage" NAME="pytest in deep_netural_network.py Coverage Results" MODIFIED="1542963248590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepNeuralNetWork" />
     <SUITE FILE_PATH="coverage/DeepLearning$pytest_for_codeTest_testSquare.coverage" NAME="pytest for codeTest.testSquare Coverage Results" MODIFIED="1544690220942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/DeepLearning$Regularization.coverage" NAME="Regularization Coverage Results" MODIFIED="1544700333767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Regularization" />
-    <SUITE FILE_PATH="coverage/DeepLearning$pytest_in_codeTest_py.coverage" NAME="pytest in codeTest.py Coverage Results" MODIFIED="1544627247147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="2008039139">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="24" />
+          <entry key="project.closed" value="25" />
           <entry key="project.open.time.0" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.4" value="3" />
           <entry key="project.open.time.5" value="6" />
-          <entry key="project.open.time.6" value="10" />
+          <entry key="project.open.time.6" value="11" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="25" />
+          <entry key="project.opened" value="26" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="16" />
-          <entry key="py" value="4418" />
+          <entry key="py" value="4980" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="16" />
-          <entry key="Python" value="4418" />
+          <entry key="Python" value="4980" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="AlchemyModelDependency/#DeepLearning" value="1" />
           <entry key="md" value="5" />
-          <entry key="py" value="74" />
+          <entry key="py" value="82" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="5" />
-          <entry key="Python" value="73" />
+          <entry key="Python" value="81" />
           <entry key="UML" value="2" />
         </counts>
       </usages-collector>
@@ -89,72 +88,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Regularization/regularization.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="331" column="24" selection-start-line="331" selection-start-column="24" selection-end-line="331" selection-end-column="24" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-                <marker date="1544700333753" expanded="true" signature="5639:5830" ph="..." />
-                <marker date="1544700333753" expanded="true" signature="6811:6988" ph="..." />
-                <marker date="1544700333753" expanded="true" signature="8618:8918" ph="..." />
-                <marker date="1544700333753" expanded="true" signature="10840:11103" ph="..." />
-                <marker date="1544700333753" expanded="true" signature="11154:11155" ph="..." />
-                <marker date="1544700333753" expanded="true" signature="12117:12595" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Regularization/testCases.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/-849347325/numpy/random/mtrand.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="2079" column="4" selection-start-line="2079" selection-start-column="4" selection-end-line="2079" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Regularization/reg_utils.py">
+        <entry file="file://$PROJECT_DIR$/GradientChecking/gradient_checking.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="242" selection-start-line="242" selection-end-line="242" />
+            <state relative-caret-position="394">
+              <caret line="157" column="4" selection-start-line="157" selection-start-column="4" selection-end-line="157" selection-end-column="40" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
+                <marker date="1544750562479" expanded="true" signature="7989:8218" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/codeTest.py">
+        <entry file="file://$PROJECT_DIR$/GradientChecking/gc_utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="190" column="11" selection-start-line="190" selection-start-column="11" selection-end-line="190" selection-end-column="11" />
-              <folding>
-                <marker date="1544690220934" expanded="true" signature="2855:2929" ph="..." />
-                <marker date="1544690220934" expanded="true" signature="2926:2929" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/-849347325/numpy/core/umath.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4651" column="4" lean-forward="true" selection-start-line="4651" selection-start-column="4" selection-end-line="4651" selection-end-column="4" />
+            <state relative-caret-position="915">
+              <caret line="61" column="21" lean-forward="true" selection-start-line="48" selection-end-line="61" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -192,8 +143,9 @@
         <option value="$PROJECT_DIR$/Regularization/__init__.py" />
         <option value="$PROJECT_DIR$/Regularization/Regularization.py" />
         <option value="$PROJECT_DIR$/Regularization/reg_utils.py" />
-        <option value="$PROJECT_DIR$/codeTest.py" />
         <option value="$PROJECT_DIR$/Regularization/regularization.py" />
+        <option value="$PROJECT_DIR$/codeTest.py" />
+        <option value="$PROJECT_DIR$/GradientChecking/gradient_checking.py" />
       </list>
     </option>
   </component>
@@ -215,7 +167,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -232,6 +183,11 @@
               <item name="DeepLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="DeepLearning" type="462c0819:PsiDirectoryNode" />
               <item name="DeepNeuralNetWork" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeepLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeepLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="GradientChecking" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DeepLearning" type="b2602c69:ProjectViewProjectNode" />
@@ -257,6 +213,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -266,11 +223,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/GradientChecking" />
       <recent name="$PROJECT_DIR$/datasets" />
       <recent name="$PROJECT_DIR$/Regularization" />
       <recent name="$PROJECT_DIR$/Initialization" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/DeepNeuralNetWork" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Planar" />
@@ -289,7 +246,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Regularization">
+  <component name="RunManager" selected="Python.gradient_checking">
     <configuration name="Regularization" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DeepLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -312,7 +269,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="initalization" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="gradient_checking" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DeepLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -320,12 +277,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Initialization" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GradientChecking" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Initialization/initalization.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GradientChecking/gradient_checking.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -334,7 +291,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for codeTest.testDropout" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for codeTest.testCopy" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="DeepLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -346,11 +303,11 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;codeTest.testDropout&quot;" />
+      <option name="_new_target" value="&quot;codeTest.testCopy&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for codeTest.testInitW" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for codeTest.testLinalgNorm" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="DeepLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -362,7 +319,7 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;codeTest.testInitW&quot;" />
+      <option name="_new_target" value="&quot;codeTest.testLinalgNorm&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -383,19 +340,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.pytest for codeTest.testDropout" />
-      <item itemvalue="Python tests.pytest for codeTest.testInitW" />
-      <item itemvalue="Python.initalization" />
       <item itemvalue="Python.Regularization" />
       <item itemvalue="Python tests.pytest for codeTest.testSquare" />
+      <item itemvalue="Python tests.pytest for codeTest.testLinalgNorm" />
+      <item itemvalue="Python.gradient_checking" />
+      <item itemvalue="Python tests.pytest for codeTest.testCopy" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.gradient_checking" />
+        <item itemvalue="Python tests.pytest for codeTest.testCopy" />
+        <item itemvalue="Python tests.pytest for codeTest.testLinalgNorm" />
         <item itemvalue="Python.Regularization" />
         <item itemvalue="Python tests.pytest for codeTest.testSquare" />
-        <item itemvalue="Python.initalization" />
-        <item itemvalue="Python tests.pytest for codeTest.testInitW" />
-        <item itemvalue="Python tests.pytest for codeTest.testDropout" />
       </list>
     </recent_temporary>
   </component>
@@ -413,48 +370,48 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_codeTest_testDropout - 2018.12.12 at 23h 26m 45s.xml">
-      <configuration name="pytest for codeTest.testDropout" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_codeTest_testDropout - 2018.12.12 at 23h 27m 07s.xml">
-      <configuration name="pytest for codeTest.testDropout" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_codeTest_testInitW - 2018.12.13 at 11h 06m 32s.xml">
-      <configuration name="pytest for codeTest.testInitW" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_codeTest_testInitW - 2018.12.13 at 11h 07m 07s.xml">
-      <configuration name="pytest for codeTest.testInitW" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_codeTest_testInitW - 2018.12.13 at 11h 07m 40s.xml">
-      <configuration name="pytest for codeTest.testInitW" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_codeTest_testInitW - 2018.12.13 at 11h 08m 05s.xml">
-      <configuration name="pytest for codeTest.testInitW" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_codeTest_testInitW - 2018.12.13 at 11h 08m 36s.xml">
-      <configuration name="pytest for codeTest.testInitW" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_codeTest_testSquare - 2018.12.13 at 16h 34m 01s.xml">
-      <configuration name="pytest for codeTest.testSquare" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_codeTest_testSquare - 2018.12.13 at 16h 34m 11s.xml">
       <configuration name="pytest for codeTest.testSquare" configurationId="tests" />
     </history-entry>
     <history-entry file="pytest_for_codeTest_testSquare - 2018.12.13 at 16h 37m 02s.xml">
       <configuration name="pytest for codeTest.testSquare" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_codeTest_testLinalgNorm - 2018.12.13 at 20h 48m 31s.xml">
+      <configuration name="pytest for codeTest.testLinalgNorm" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_codeTest_testLinalgNorm - 2018.12.13 at 20h 50m 06s.xml">
+      <configuration name="pytest for codeTest.testLinalgNorm" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_codeTest_testLinalgNorm - 2018.12.13 at 20h 53m 02s.xml">
+      <configuration name="pytest for codeTest.testLinalgNorm" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_codeTest_testLinalgNorm - 2018.12.13 at 20h 54m 42s.xml">
+      <configuration name="pytest for codeTest.testLinalgNorm" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_codeTest_testLinalgNorm - 2018.12.13 at 20h 54m 57s.xml">
+      <configuration name="pytest for codeTest.testLinalgNorm" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_codeTest_testLinalgNorm - 2018.12.13 at 20h 57m 37s.xml">
+      <configuration name="pytest for codeTest.testLinalgNorm" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_codeTest_testCopy - 2018.12.14 at 09h 05m 57s.xml">
+      <configuration name="pytest for codeTest.testCopy" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_codeTest_testCopy - 2018.12.14 at 09h 09m 23s.xml">
+      <configuration name="pytest for codeTest.testCopy" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09728183" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18884121" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.44819278" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.34819278" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.0" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.07590362" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -462,7 +419,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.14457831" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.14337349" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -504,13 +461,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63510">
           <caret line="4278" selection-start-line="4278" selection-end-line="4278" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///anaconda3/python.app/Contents/lib/python3.6/site-packages/numpy/lib/function_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68025">
-          <caret line="4567" column="28" selection-start-line="4565" selection-end-line="4567" selection-end-column="28" />
         </state>
       </provider>
     </entry>
@@ -610,12 +560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5625">
           <caret line="379" column="21" selection-start-line="379" selection-start-column="21" selection-end-line="379" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <marker date="1544496602515" expanded="true" signature="1353:1354" ph="..." />
-            <marker date="1544496602515" expanded="true" signature="8339:13683" ph="..." />
-            <marker date="1544496602515" expanded="true" signature="13394:13683" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -623,13 +567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2430">
           <caret line="169" column="23" selection-start-line="169" selection-start-column="23" selection-end-line="169" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-            <marker date="1544496602521" expanded="true" signature="4577:4696" ph="..." />
-            <marker date="1544496602521" expanded="true" signature="4577:4817" ph="..." />
-            <marker date="1544496602521" expanded="true" signature="6738:6739" ph="..." />
-            <marker date="1544496602521" expanded="true" signature="6738:6743" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -651,12 +588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="187" lean-forward="true" selection-start-line="187" selection-end-line="187" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <marker date="1544683301255" expanded="true" signature="3558:3559" ph="..." />
-            <marker date="1544683301255" expanded="true" signature="6313:6316" ph="..." />
-            <marker date="1544683301255" expanded="true" signature="7313:7906" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -708,17 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/codeTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="190" column="11" selection-start-line="190" selection-start-column="11" selection-end-line="190" selection-end-column="11" />
-          <folding>
-            <marker date="1544690220934" expanded="true" signature="2855:2929" ph="..." />
-            <marker date="1544690220934" expanded="true" signature="2926:2929" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/-849347325/numpy/random/mtrand.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="250">
@@ -737,15 +657,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="318">
           <caret line="331" column="24" selection-start-line="331" selection-start-column="24" selection-end-line="331" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <marker date="1544700333753" expanded="true" signature="5639:5830" ph="..." />
-            <marker date="1544700333753" expanded="true" signature="6811:6988" ph="..." />
-            <marker date="1544700333753" expanded="true" signature="8618:8918" ph="..." />
-            <marker date="1544700333753" expanded="true" signature="10840:11103" ph="..." />
-            <marker date="1544700333753" expanded="true" signature="11154:11155" ph="..." />
-            <marker date="1544700333753" expanded="true" signature="12117:12595" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -753,8 +664,50 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
           <caret line="242" selection-start-line="242" selection-end-line="242" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GradientChecking/testCases.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///anaconda3/python.app/Contents/lib/python3.6/site-packages/numpy/linalg/linalg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31530">
+          <caret line="2102" column="4" selection-start-line="2102" selection-start-column="4" selection-end-line="2102" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/python.app/Contents/lib/python3.6/site-packages/numpy/lib/function_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="1463" lean-forward="true" selection-start-line="1463" selection-end-line="1463" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codeTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="218" column="12" lean-forward="true" selection-start-line="204" selection-end-line="218" selection-end-column="12" />
+          <folding>
+            <marker date="1544749762013" expanded="true" signature="3345:3545" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GradientChecking/gc_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="61" column="21" lean-forward="true" selection-start-line="48" selection-end-line="61" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GradientChecking/gradient_checking.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="157" column="4" selection-start-line="157" selection-start-column="4" selection-end-line="157" selection-end-column="40" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+            <marker date="1544750562479" expanded="true" signature="7989:8218" ph="..." />
           </folding>
         </state>
       </provider>
