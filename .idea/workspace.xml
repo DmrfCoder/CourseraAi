@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cac0bcf4-1ac4-41c1-9f90-2b4eec3bc60c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/OptimizationMethods/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OptimizationMethods/opt_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OptimizationMethods/optimization_methods.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/OptimizationMethods/testCases.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Regularization/regularization.py" beforeDir="false" afterPath="$PROJECT_DIR$/Regularization/regularization.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +20,7 @@
     <SUITE FILE_PATH="coverage/DeepLearning$codeTest.coverage" NAME="codeTest Coverage Results" MODIFIED="1542170920941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DeepLearning$initalization.coverage" NAME="initalization Coverage Results" MODIFIED="1544683301266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Initialization" />
     <SUITE FILE_PATH="coverage/DeepLearning$pytest_for_deep_netural_network_test_linear_activation_backward.coverage" NAME="pytest for deep_netural_network.test_linear_activation_backward Coverage Results" MODIFIED="1542965752079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepNeuralNetWork" />
+    <SUITE FILE_PATH="coverage/DeepLearning$optimization_methods.coverage" NAME="optimization_methods Coverage Results" MODIFIED="1545093463912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OptimizationMethods" />
     <SUITE FILE_PATH="coverage/DeepLearning$pytest_for_deep_netural_network_test_compute_cost.coverage" NAME="pytest for deep_netural_network.test_compute_cost Coverage Results" MODIFIED="1542964793069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepNeuralNetWork" />
     <SUITE FILE_PATH="coverage/DeepLearning$deep_netural_network_for_image_classification.coverage" NAME="deep_netural_network_for_image_classification Coverage Results" MODIFIED="1544496288651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepNeuralNetWork" />
     <SUITE FILE_PATH="coverage/DeepLearning$pytest_for_deep_netural_network_test_linear_backward.coverage" NAME="pytest for deep_netural_network.test_linear_backward Coverage Results" MODIFIED="1542965485359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepNeuralNetWork" />
@@ -43,39 +47,39 @@
     <session id="2008039139">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="25" />
+          <entry key="project.closed" value="28" />
           <entry key="project.open.time.0" value="4" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.4" value="3" />
           <entry key="project.open.time.5" value="6" />
-          <entry key="project.open.time.6" value="11" />
+          <entry key="project.open.time.6" value="12" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="26" />
+          <entry key="project.opened" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="16" />
-          <entry key="py" value="5015" />
+          <entry key="py" value="5566" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="16" />
-          <entry key="Python" value="5015" />
+          <entry key="Python" value="5566" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="AlchemyModelDependency/#DeepLearning" value="1" />
-          <entry key="md" value="5" />
-          <entry key="py" value="83" />
+          <entry key="md" value="6" />
+          <entry key="py" value="89" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="5" />
-          <entry key="Python" value="82" />
+          <entry key="Markdown" value="6" />
+          <entry key="Python" value="88" />
           <entry key="UML" value="2" />
         </counts>
       </usages-collector>
@@ -84,41 +88,31 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GradientChecking/gradient_checking.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="173" column="12" lean-forward="true" selection-start-line="173" selection-start-column="12" selection-end-line="173" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#18#0" expanded="true" />
-                <marker date="1544759035228" expanded="true" signature="7319:7548" ph="..." />
-              </folding>
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/OptimizationMethods/testCases.py">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Regularization/regularization.py">
+        <entry file="file://$PROJECT_DIR$/OptimizationMethods/optimization_methods.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="326">
-              <caret line="269" lean-forward="true" selection-start-line="226" selection-end-line="269" />
+            <state relative-caret-position="85">
+              <caret line="418" lean-forward="true" selection-start-line="402" selection-end-line="418" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <marker date="1544774581926" expanded="true" signature="5518:5709" ph="..." />
-                <marker date="1544774581926" expanded="true" signature="6686:6863" ph="..." />
-                <marker date="1544774581926" expanded="true" signature="8280:8580" ph="..." />
-                <marker date="1544774581926" expanded="true" signature="10410:10673" ph="..." />
-                <marker date="1544774581926" expanded="true" signature="10724:10725" ph="..." />
-                <marker date="1544774581926" expanded="true" signature="11687:12165" ph="..." />
+                <marker date="1545101219704" expanded="true" signature="1635:1636" ph="..." />
+                <marker date="1545101219704" expanded="true" signature="7146:18354" ph="..." />
+                <marker date="1545101219704" expanded="true" signature="12761:18354" ph="..." />
+                <marker date="1545101219704" expanded="true" signature="17912:18354" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/GradientChecking/gc_utils.py">
+        <entry file="file://$PROJECT_DIR$/OptimizationMethods/opt_utils.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
-              <caret line="61" column="21" lean-forward="true" selection-start-line="48" selection-end-line="61" selection-end-column="21" />
+            <state relative-caret-position="127">
+              <caret line="150" selection-start-line="150" selection-end-line="150" />
             </state>
           </provider>
         </entry>
@@ -159,6 +153,7 @@
         <option value="$PROJECT_DIR$/codeTest.py" />
         <option value="$PROJECT_DIR$/GradientChecking/gradient_checking.py" />
         <option value="$PROJECT_DIR$/Regularization/regularization.py" />
+        <option value="$PROJECT_DIR$/OptimizationMethods/optimization_methods.py" />
       </list>
     </option>
   </component>
@@ -180,6 +175,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -190,43 +186,12 @@
             <path>
               <item name="DeepLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="DeepLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="datasets" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DeepLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DeepLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="DeepNeuralNetWork" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DeepLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DeepLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="GradientChecking" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DeepLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DeepLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="Initialization" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DeepLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DeepLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="Logistic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DeepLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DeepLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="Regularization" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DeepLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DeepLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="Util" type="462c0819:PsiDirectoryNode" />
+              <item name="OptimizationMethods" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -235,16 +200,16 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Planar" />
+      <recent name="$PROJECT_DIR$/Logistic" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/OptimizationMethods" />
       <recent name="$PROJECT_DIR$/GradientChecking" />
       <recent name="$PROJECT_DIR$/datasets" />
       <recent name="$PROJECT_DIR$/Regularization" />
       <recent name="$PROJECT_DIR$/Initialization" />
-      <recent name="$PROJECT_DIR$" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/Planar" />
-      <recent name="$PROJECT_DIR$/Logistic" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -259,7 +224,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.gradient_checking">
+  <component name="RunManager" selected="Python.optimization_methods">
     <configuration name="Regularization" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DeepLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -304,6 +269,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="optimization_methods" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DeepLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OptimizationMethods" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OptimizationMethods/optimization_methods.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="pytest for codeTest.testCopy" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="DeepLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -336,36 +323,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for codeTest.testSquare" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="DeepLearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;codeTest.testSquare&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.Regularization" />
-      <item itemvalue="Python tests.pytest for codeTest.testSquare" />
       <item itemvalue="Python tests.pytest for codeTest.testLinalgNorm" />
       <item itemvalue="Python.gradient_checking" />
       <item itemvalue="Python tests.pytest for codeTest.testCopy" />
+      <item itemvalue="Python.optimization_methods" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.optimization_methods" />
         <item itemvalue="Python.gradient_checking" />
         <item itemvalue="Python tests.pytest for codeTest.testCopy" />
         <item itemvalue="Python tests.pytest for codeTest.testLinalgNorm" />
         <item itemvalue="Python.Regularization" />
-        <item itemvalue="Python tests.pytest for codeTest.testSquare" />
       </list>
     </recent_temporary>
   </component>
@@ -416,15 +387,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18884121" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07439199" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.10722891" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.07590362" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.7963855" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.1373494" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -432,12 +402,12 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2554217" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.2554217" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.18669528" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.44849786" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
@@ -494,16 +464,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Logistic/Logistic Regression with a Neural Network mindset.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="51" lean-forward="true" selection-start-column="2" selection-end-column="51" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://Python/#/Users/dmrfcoder/PycharmProjects/DeepLearning/Planar/Planar_data_classification_with_one_hidden_layer_v5.py">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -551,13 +511,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DeepNeuralNetWork/dnn_app_utils_v3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1680">
-          <caret line="114" column="8" selection-start-line="114" selection-start-column="8" selection-end-line="114" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/目录.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -573,13 +526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5625">
           <caret line="379" column="21" selection-start-line="379" selection-start-column="21" selection-end-line="379" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeepNeuralNetWork/deep_netural_network_for_image_classification.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2430">
-          <caret line="169" column="23" selection-start-line="169" selection-start-column="23" selection-end-line="169" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -614,13 +560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="31" selection-start-column="31" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Logistic/Logistic_Regression_With_a_Neural_Network_mindset_v5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3825">
-          <caret line="262" selection-start-line="262" selection-end-line="262" />
         </state>
       </provider>
     </entry>
@@ -670,9 +609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="137">
           <caret line="242" selection-start-line="242" selection-end-line="242" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -697,42 +633,81 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="319">
           <caret line="218" column="12" lean-forward="true" selection-start-line="204" selection-end-line="218" selection-end-column="12" />
-          <folding>
-            <marker date="1544749762013" expanded="true" signature="3345:3545" ph="..." />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logistic/Logistic_Regression_With_a_Neural_Network_mindset_v5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="262" selection-start-line="262" selection-end-line="262" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Logistic/Logistic Regression with a Neural Network mindset.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="51" lean-forward="true" selection-start-column="2" selection-end-column="51" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GradientChecking/gradient_checking.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2565">
+          <caret line="173" column="12" selection-start-line="173" selection-start-column="12" selection-end-line="173" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Regularization/regularization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3735">
+          <caret line="258" column="65" selection-start-line="258" selection-start-column="65" selection-end-line="258" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepNeuralNetWork/deep_netural_network_for_image_classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2400">
+          <caret line="167" column="29" selection-start-line="167" selection-start-column="29" selection-end-line="167" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GradientChecking/gc_utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="915">
-          <caret line="61" column="21" lean-forward="true" selection-start-line="48" selection-end-line="61" selection-end-column="21" />
+          <caret line="61" column="21" selection-start-line="48" selection-end-line="61" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GradientChecking/gradient_checking.py">
+    <entry file="file://$PROJECT_DIR$/DeepNeuralNetWork/dnn_app_utils_v3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="173" column="12" lean-forward="true" selection-start-line="173" selection-start-column="12" selection-end-line="173" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <marker date="1544759035228" expanded="true" signature="7319:7548" ph="..." />
-          </folding>
+        <state relative-caret-position="15">
+          <caret line="177" column="20" selection-start-line="177" selection-start-column="20" selection-end-line="177" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Regularization/regularization.py">
+    <entry file="file://$PROJECT_DIR$/OptimizationMethods/testCases.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OptimizationMethods/opt_utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="269" lean-forward="true" selection-start-line="226" selection-end-line="269" />
+        <state relative-caret-position="127">
+          <caret line="150" selection-start-line="150" selection-end-line="150" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/OptimizationMethods/optimization_methods.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="418" lean-forward="true" selection-start-line="402" selection-end-line="418" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <marker date="1544774581926" expanded="true" signature="5518:5709" ph="..." />
-            <marker date="1544774581926" expanded="true" signature="6686:6863" ph="..." />
-            <marker date="1544774581926" expanded="true" signature="8280:8580" ph="..." />
-            <marker date="1544774581926" expanded="true" signature="10410:10673" ph="..." />
-            <marker date="1544774581926" expanded="true" signature="10724:10725" ph="..." />
-            <marker date="1544774581926" expanded="true" signature="11687:12165" ph="..." />
+            <marker date="1545101219704" expanded="true" signature="1635:1636" ph="..." />
+            <marker date="1545101219704" expanded="true" signature="7146:18354" ph="..." />
+            <marker date="1545101219704" expanded="true" signature="12761:18354" ph="..." />
+            <marker date="1545101219704" expanded="true" signature="17912:18354" ph="..." />
           </folding>
         </state>
       </provider>
