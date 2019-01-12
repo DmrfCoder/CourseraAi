@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cac0bcf4-1ac4-41c1-9f90-2b4eec3bc60c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/OptimizationMethods/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OptimizationMethods/opt_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OptimizationMethods/optimization_methods.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OptimizationMethods/testCases.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConvolutionModel/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConvolutionModel/cnn_step_by_step.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConvolutionModel/cnn_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConvolutionalNeuralNetworks_Application/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConvolutionalNeuralNetworks_Application/cnn_application.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ConvolutionalNeuralNetworks_Application/cnn_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TensorflowTutorial/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TensorflowTutorial/improv_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TensorflowTutorial/tensorflow_tutorial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TensorflowTutorial/tf_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/test_signs.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/train_signs.h5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/codeTest.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +29,8 @@
     <SUITE FILE_PATH="coverage/DeepLearning$pytest_for_codeTest_testDropout.coverage" NAME="pytest for codeTest.testDropout Coverage Results" MODIFIED="1544628425722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DeepLearning$codeTest.coverage" NAME="codeTest Coverage Results" MODIFIED="1542170920941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DeepLearning$initalization.coverage" NAME="initalization Coverage Results" MODIFIED="1544683301266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Initialization" />
+    <SUITE FILE_PATH="coverage/DeepLearning$tensorflow_tutorial.coverage" NAME="tensorflow_tutorial Coverage Results" MODIFIED="1545149990883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TensorflowTutorial" />
+    <SUITE FILE_PATH="coverage/DeepLearning$cnn_application.coverage" NAME="cnn_application Coverage Results" MODIFIED="1547125232541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ConvolutionalNeuralNetworks_Application" />
     <SUITE FILE_PATH="coverage/DeepLearning$pytest_for_deep_netural_network_test_linear_activation_backward.coverage" NAME="pytest for deep_netural_network.test_linear_activation_backward Coverage Results" MODIFIED="1542965752079" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepNeuralNetWork" />
     <SUITE FILE_PATH="coverage/DeepLearning$optimization_methods.coverage" NAME="optimization_methods Coverage Results" MODIFIED="1545093463912" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/OptimizationMethods" />
     <SUITE FILE_PATH="coverage/DeepLearning$pytest_for_deep_netural_network_test_compute_cost.coverage" NAME="pytest for deep_netural_network.test_compute_cost Coverage Results" MODIFIED="1542964793069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepNeuralNetWork" />
@@ -27,6 +39,7 @@
     <SUITE FILE_PATH="coverage/DeepLearning$pytest_for_codeTest_testInitW.coverage" NAME="pytest for codeTest.testInitW Coverage Results" MODIFIED="1544670515300" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DeepLearning$Planar_data_classification_with_one_hidden_layer_v5.coverage" NAME="Planar_data_classification_with_one_hidden_layer_v5 Coverage Results" MODIFIED="1543590321139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Planar" />
     <SUITE FILE_PATH="coverage/DeepLearning$pytest_for_deep_netural_network_test_L_model_forward.coverage" NAME="pytest for deep_netural_network.test_L_model_forward Coverage Results" MODIFIED="1542964410130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepNeuralNetWork" />
+    <SUITE FILE_PATH="coverage/DeepLearning$pytest_for_codeTest_testMeanAverage.coverage" NAME="pytest for codeTest.testMeanAverage Coverage Results" MODIFIED="1545834508695" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DeepLearning$pytest_for_codeTest_testDivide.coverage" NAME="pytest for codeTest.testDivide Coverage Results" MODIFIED="1542966955885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DeepLearning$pytest_for_deep_netural_network_test_linear_forward.coverage" NAME="pytest for deep_netural_network.test_linear_forward Coverage Results" MODIFIED="1542963257998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepNeuralNetWork" />
     <SUITE FILE_PATH="coverage/DeepLearning$pytest_for_deep_netural_network_test_linear_activation_forward.coverage" NAME="pytest for deep_netural_network.test_linear_activation_forward Coverage Results" MODIFIED="1542963765008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepNeuralNetWork" />
@@ -34,52 +47,69 @@
     <SUITE FILE_PATH="coverage/DeepLearning$pytest_in_codeTest_py.coverage" NAME="pytest in codeTest.py Coverage Results" MODIFIED="1544627247147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DeepLearning$main.coverage" NAME="main Coverage Results" MODIFIED="1541983042563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Logistic Regression with a Neural Network mindset v5" />
     <SUITE FILE_PATH="coverage/DeepLearning$pytest_for_deep_netural_network_test_initialize_parameters.coverage" NAME="pytest for deep_netural_network.test_initialize_parameters Coverage Results" MODIFIED="1542673467204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepNeuralNetWork" />
+    <SUITE FILE_PATH="coverage/DeepLearning$pytest_for_codeTest_testNpPad.coverage" NAME="pytest for codeTest.testNpPad Coverage Results" MODIFIED="1545748984076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DeepLearning$pytest_for_codeTest_testCopy.coverage" NAME="pytest for codeTest.testCopy Coverage Results" MODIFIED="1544749762021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DeepLearning$gradient_checking.coverage" NAME="gradient_checking Coverage Results" MODIFIED="1544758861108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GradientChecking" />
     <SUITE FILE_PATH="coverage/DeepLearning$demo.coverage" NAME="demo Coverage Results" MODIFIED="1544587495394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DeepLearning$Logistic_Regression_With_a_Neural_Network_mindset_v5.coverage" NAME="Logistic_Regression_With_a_Neural_Network_mindset_v5 Coverage Results" MODIFIED="1543546565418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Logistic" />
     <SUITE FILE_PATH="coverage/DeepLearning$pytest_for_codeTest_testLinalgNorm.coverage" NAME="pytest for codeTest.testLinalgNorm Coverage Results" MODIFIED="1544705855882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/DeepLearning$pytest_for_deep_netural_network_test_update_parameters.coverage" NAME="pytest for deep_netural_network.test_update_parameters Coverage Results" MODIFIED="1543282194020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepNeuralNetWork" />
+    <SUITE FILE_PATH="coverage/DeepLearning$cnn_step_by_step.coverage" NAME="cnn_step_by_step Coverage Results" MODIFIED="1547113097424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ConvolutionModel" />
     <SUITE FILE_PATH="coverage/DeepLearning$pytest_in_deep_netural_network_py.coverage" NAME="pytest in deep_netural_network.py Coverage Results" MODIFIED="1542963248590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepNeuralNetWork" />
     <SUITE FILE_PATH="coverage/DeepLearning$pytest_for_codeTest_testSquare.coverage" NAME="pytest for codeTest.testSquare Coverage Results" MODIFIED="1544690220942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="2008039139">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="28" />
+          <entry key="project.closed" value="34" />
           <entry key="project.open.time.0" value="4" />
-          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.4" value="3" />
-          <entry key="project.open.time.5" value="6" />
-          <entry key="project.open.time.6" value="12" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="29" />
+          <entry key="project.open.time.5" value="7" />
+          <entry key="project.open.time.6" value="14" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="16" />
-          <entry key="py" value="5566" />
+          <entry key="py" value="8003" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="16" />
-          <entry key="Python" value="5566" />
+          <entry key="Python" value="8003" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="AlchemyModelDependency/#DeepLearning" value="1" />
           <entry key="md" value="6" />
-          <entry key="py" value="89" />
+          <entry key="py" value="116" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="6" />
-          <entry key="Python" value="88" />
+          <entry key="Python" value="115" />
           <entry key="UML" value="2" />
         </counts>
       </usages-collector>
@@ -87,32 +117,17 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OptimizationMethods/testCases.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/OptimizationMethods/optimization_methods.py">
+        <entry file="file://$PROJECT_DIR$/ConvolutionModel/cnn_step_by_step.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="418" lean-forward="true" selection-start-line="402" selection-end-line="418" />
+            <state relative-caret-position="536">
+              <caret line="372" lean-forward="true" selection-start-line="349" selection-end-line="372" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <marker date="1545101219704" expanded="true" signature="1635:1636" ph="..." />
-                <marker date="1545101219704" expanded="true" signature="7146:18354" ph="..." />
-                <marker date="1545101219704" expanded="true" signature="12761:18354" ph="..." />
-                <marker date="1545101219704" expanded="true" signature="17912:18354" ph="..." />
+                <marker date="1547302237172" expanded="true" signature="846:847" ph="..." />
+                <marker date="1547302237172" expanded="true" signature="4981:16404" ph="..." />
+                <marker date="1547302237172" expanded="true" signature="15873:16404" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/OptimizationMethods/opt_utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="150" selection-start-line="150" selection-end-line="150" />
             </state>
           </provider>
         </entry>
@@ -150,10 +165,15 @@
         <option value="$PROJECT_DIR$/Regularization/__init__.py" />
         <option value="$PROJECT_DIR$/Regularization/Regularization.py" />
         <option value="$PROJECT_DIR$/Regularization/reg_utils.py" />
-        <option value="$PROJECT_DIR$/codeTest.py" />
         <option value="$PROJECT_DIR$/GradientChecking/gradient_checking.py" />
         <option value="$PROJECT_DIR$/Regularization/regularization.py" />
         <option value="$PROJECT_DIR$/OptimizationMethods/optimization_methods.py" />
+        <option value="$PROJECT_DIR$/TensorflowTutorial/tf_utils.py" />
+        <option value="$PROJECT_DIR$/TensorflowTutorial/tensorflow_tutorial.py" />
+        <option value="$PROJECT_DIR$/codeTest.py" />
+        <option value="$PROJECT_DIR$/ConvolutionalNeuralNetworks_Application/cnn_utils.py" />
+        <option value="$PROJECT_DIR$/ConvolutionalNeuralNetworks_Application/cnn_application.py" />
+        <option value="$PROJECT_DIR$/ConvolutionModel/cnn_step_by_step.py" />
       </list>
     </option>
   </component>
@@ -186,7 +206,32 @@
             <path>
               <item name="DeepLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="DeepLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="ConvolutionalNeuralNetworks_Application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeepLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeepLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="ConvolutionModel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeepLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeepLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="datasets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeepLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeepLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="DeepNeuralNetWork" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeepLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeepLearning" type="462c0819:PsiDirectoryNode" />
               <item name="OptimizationMethods" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeepLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeepLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="TensorflowTutorial" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -196,20 +241,21 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/datasets" />
+      <recent name="$PROJECT_DIR$/ConvolutionalNeuralNetworks_Application" />
+      <recent name="$PROJECT_DIR$/ConvolutionModel" />
+      <recent name="$PROJECT_DIR$/TensorflowTutorial" />
+      <recent name="$PROJECT_DIR$/OptimizationMethods" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Planar" />
       <recent name="$PROJECT_DIR$/Logistic" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/OptimizationMethods" />
-      <recent name="$PROJECT_DIR$/GradientChecking" />
-      <recent name="$PROJECT_DIR$/datasets" />
-      <recent name="$PROJECT_DIR$/Regularization" />
-      <recent name="$PROJECT_DIR$/Initialization" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -224,8 +270,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.optimization_methods">
-    <configuration name="Regularization" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.cnn_application">
+    <configuration name="cnn_application" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DeepLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -233,12 +279,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Regularization" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ConvolutionalNeuralNetworks_Application" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Regularization/regularization.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ConvolutionalNeuralNetworks_Application/cnn_application.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -247,7 +293,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="gradient_checking" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="cnn_step_by_step" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DeepLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -255,12 +301,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/GradientChecking" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ConvolutionModel" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GradientChecking/gradient_checking.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ConvolutionModel/cnn_step_by_step.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -269,7 +315,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="optimization_methods" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tensorflow_tutorial" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DeepLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -277,12 +323,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/OptimizationMethods" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TensorflowTutorial" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/OptimizationMethods/optimization_methods.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TensorflowTutorial/tensorflow_tutorial.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -291,7 +337,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for codeTest.testCopy" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for codeTest.testMeanAverage" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="DeepLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -303,11 +349,11 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;codeTest.testCopy&quot;" />
+      <option name="_new_target" value="&quot;codeTest.testMeanAverage&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for codeTest.testLinalgNorm" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for codeTest.testNpPad" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="DeepLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -319,24 +365,24 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;codeTest.testLinalgNorm&quot;" />
+      <option name="_new_target" value="&quot;codeTest.testNpPad&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Regularization" />
-      <item itemvalue="Python tests.pytest for codeTest.testLinalgNorm" />
-      <item itemvalue="Python.gradient_checking" />
-      <item itemvalue="Python tests.pytest for codeTest.testCopy" />
-      <item itemvalue="Python.optimization_methods" />
+      <item itemvalue="Python.tensorflow_tutorial" />
+      <item itemvalue="Python tests.pytest for codeTest.testNpPad" />
+      <item itemvalue="Python.cnn_step_by_step" />
+      <item itemvalue="Python tests.pytest for codeTest.testMeanAverage" />
+      <item itemvalue="Python.cnn_application" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.optimization_methods" />
-        <item itemvalue="Python.gradient_checking" />
-        <item itemvalue="Python tests.pytest for codeTest.testCopy" />
-        <item itemvalue="Python tests.pytest for codeTest.testLinalgNorm" />
-        <item itemvalue="Python.Regularization" />
+        <item itemvalue="Python.cnn_application" />
+        <item itemvalue="Python.cnn_step_by_step" />
+        <item itemvalue="Python tests.pytest for codeTest.testMeanAverage" />
+        <item itemvalue="Python tests.pytest for codeTest.testNpPad" />
+        <item itemvalue="Python.tensorflow_tutorial" />
       </list>
     </recent_temporary>
   </component>
@@ -354,47 +400,48 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_codeTest_testSquare - 2018.12.13 at 16h 34m 11s.xml">
-      <configuration name="pytest for codeTest.testSquare" configurationId="tests" />
+    <history-entry file="pytest_for_codeTest_testNpPad - 2018.12.25 at 22h 40m 34s.xml">
+      <configuration name="pytest for codeTest.testNpPad" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_codeTest_testSquare - 2018.12.13 at 16h 37m 02s.xml">
-      <configuration name="pytest for codeTest.testSquare" configurationId="tests" />
+    <history-entry file="pytest_for_codeTest_testNpPad - 2018.12.25 at 22h 40m 36s.xml">
+      <configuration name="pytest for codeTest.testNpPad" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_codeTest_testLinalgNorm - 2018.12.13 at 20h 48m 31s.xml">
-      <configuration name="pytest for codeTest.testLinalgNorm" configurationId="tests" />
+    <history-entry file="pytest_for_codeTest_testNpPad - 2018.12.25 at 22h 40m 58s.xml">
+      <configuration name="pytest for codeTest.testNpPad" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_codeTest_testLinalgNorm - 2018.12.13 at 20h 50m 06s.xml">
-      <configuration name="pytest for codeTest.testLinalgNorm" configurationId="tests" />
+    <history-entry file="pytest_for_codeTest_testNpPad - 2018.12.25 at 22h 42m 07s.xml">
+      <configuration name="pytest for codeTest.testNpPad" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_codeTest_testLinalgNorm - 2018.12.13 at 20h 53m 02s.xml">
-      <configuration name="pytest for codeTest.testLinalgNorm" configurationId="tests" />
+    <history-entry file="pytest_for_codeTest_testNpPad - 2018.12.25 at 22h 43m 04s.xml">
+      <configuration name="pytest for codeTest.testNpPad" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_codeTest_testLinalgNorm - 2018.12.13 at 20h 54m 42s.xml">
-      <configuration name="pytest for codeTest.testLinalgNorm" configurationId="tests" />
+    <history-entry file="pytest_for_codeTest_testMeanAverage - 2018.12.26 at 22h 24m 59s.xml">
+      <configuration name="pytest for codeTest.testMeanAverage" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_codeTest_testLinalgNorm - 2018.12.13 at 20h 54m 57s.xml">
-      <configuration name="pytest for codeTest.testLinalgNorm" configurationId="tests" />
+    <history-entry file="pytest_for_codeTest_testMeanAverage - 2018.12.26 at 22h 27m 32s.xml">
+      <configuration name="pytest for codeTest.testMeanAverage" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_codeTest_testLinalgNorm - 2018.12.13 at 20h 57m 37s.xml">
-      <configuration name="pytest for codeTest.testLinalgNorm" configurationId="tests" />
+    <history-entry file="pytest_for_codeTest_testMeanAverage - 2018.12.26 at 22h 28m 13s.xml">
+      <configuration name="pytest for codeTest.testMeanAverage" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_codeTest_testCopy - 2018.12.14 at 09h 05m 57s.xml">
-      <configuration name="pytest for codeTest.testCopy" configurationId="tests" />
+    <history-entry file="pytest_for_codeTest_testMeanAverage - 2018.12.26 at 22h 28m 23s.xml">
+      <configuration name="pytest for codeTest.testMeanAverage" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_codeTest_testCopy - 2018.12.14 at 09h 09m 23s.xml">
-      <configuration name="pytest for codeTest.testCopy" configurationId="tests" />
+    <history-entry file="pytest_for_codeTest_testMeanAverage - 2018.12.26 at 22h 28m 29s.xml">
+      <configuration name="pytest for codeTest.testMeanAverage" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.07439199" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22961374" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.7963855" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.1373494" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5674699" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39156628" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -407,8 +454,8 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.44849786" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.20886981" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3297568" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,35 +465,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Logistic Regression with a Neural Network mindset v5/__init__.py" />
-    <entry file="file://$PROJECT_DIR$/Logistic Regression with a Neural Network mindset v5/main.py" />
-    <entry file="file://$PROJECT_DIR$/Logistic Regression with a Neural Network mindset v5/Logistic+Regression+with+a+Neural+Network+mindset+v5.py" />
-    <entry file="file:///anaconda3/python.app/Contents/lib/python3.6/site-packages/numpy/core/fromnumeric.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="1189" selection-start-line="1189" selection-end-line="1189" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Planar/testCases_v2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-609" />
-      </provider>
-    </entry>
-    <entry file="file:///anaconda3/python.app/Contents/lib/python3.6/site-packages/matplotlib/colors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="222" selection-start-line="222" selection-end-line="222" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///anaconda3/python.app/Contents/lib/python3.6/site-packages/matplotlib/axes/_axes.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63510">
-          <caret line="4278" selection-start-line="4278" selection-end-line="4278" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///anaconda3/python.app/Contents/lib/python3.6/site-packages/numpy/core/_methods.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -501,13 +519,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="15" column="37" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeepNeuralNetWork/dnn_utils_v2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="37" selection-start-line="28" selection-start-column="37" selection-end-line="28" selection-end-column="37" />
         </state>
       </provider>
     </entry>
@@ -622,20 +633,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///anaconda3/python.app/Contents/lib/python3.6/site-packages/numpy/lib/function_base.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="1463" lean-forward="true" selection-start-line="1463" selection-end-line="1463" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/codeTest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="218" column="12" lean-forward="true" selection-start-line="204" selection-end-line="218" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Logistic/Logistic_Regression_With_a_Neural_Network_mindset_v5.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="466">
@@ -667,24 +664,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DeepNeuralNetWork/deep_netural_network_for_image_classification.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2400">
-          <caret line="167" column="29" selection-start-line="167" selection-start-column="29" selection-end-line="167" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GradientChecking/gc_utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="915">
           <caret line="61" column="21" selection-start-line="48" selection-end-line="61" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DeepNeuralNetWork/dnn_app_utils_v3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="177" column="20" selection-start-line="177" selection-start-column="20" selection-end-line="177" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -698,16 +681,144 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/python.app/Contents/lib/python3.6/site-packages/tensorflow/python/ops/gen_math_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68115">
+          <caret line="4559" selection-start-line="4559" selection-end-line="4559" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/python.app/Contents/lib/python3.6/site-packages/tensorflow/python/ops/array_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25185">
+          <caret line="1705" column="4" selection-start-line="1705" selection-start-column="4" selection-end-line="1705" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TensorflowTutorial/tf_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="960">
+          <caret line="67" column="4" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codeTest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3555">
+          <caret line="238" selection-start-line="238" selection-end-line="238" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/python.app/Contents/lib/python3.6/site-packages/numpy/core/fromnumeric.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42630">
+          <caret line="2853" column="67" selection-start-line="2851" selection-end-line="2853" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/python.app/Contents/lib/python3.6/site-packages/numpy/lib/function_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15165">
+          <caret line="1043" column="56" selection-start-line="1042" selection-end-line="1043" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/python.app/Contents/lib/python3.6/site-packages/_pytest/_code/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConvolutionModel/cnn_utils.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepNeuralNetWork/dnn_app_utils_v3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1459">
+          <caret line="177" column="20" selection-start-line="177" selection-start-column="20" selection-end-line="177" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepNeuralNetWork/dnn_utils_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConvolutionalNeuralNetworks_Application/cnn_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/python.app/Contents/lib/python3.6/site-packages/tensorflow/python/ops/nn_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="2113" column="4" selection-start-line="2113" selection-start-column="4" selection-end-line="2113" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TensorflowTutorial/tensorflow_tutorial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3210">
+          <caret line="171" lean-forward="true" selection-start-line="171" selection-end-line="171" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/OptimizationMethods/optimization_methods.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="418" lean-forward="true" selection-start-line="402" selection-end-line="418" />
+        <state relative-caret-position="-40">
+          <caret line="17" column="4" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DeepNeuralNetWork/deep_netural_network_for_image_classification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-384">
+          <caret line="133" column="27" selection-start-line="133" selection-start-column="27" selection-end-line="133" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/python.app/Contents/lib/python3.6/site-packages/tensorflow/python/training/adam.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConvolutionalNeuralNetworks_Application/cnn_application.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="678">
+          <caret line="355" column="16" selection-start-line="355" selection-start-column="16" selection-end-line="355" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/python.app/Contents/lib/python3.6/site-packages/tensorflow/python/ops/gen_nn_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="876" column="4" selection-start-line="876" selection-start-column="4" selection-end-line="876" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConvolutionModel/cnn_step_by_step.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="372" lean-forward="true" selection-start-line="349" selection-end-line="372" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <marker date="1545101219704" expanded="true" signature="1635:1636" ph="..." />
-            <marker date="1545101219704" expanded="true" signature="7146:18354" ph="..." />
-            <marker date="1545101219704" expanded="true" signature="12761:18354" ph="..." />
-            <marker date="1545101219704" expanded="true" signature="17912:18354" ph="..." />
+            <marker date="1547302237172" expanded="true" signature="846:847" ph="..." />
+            <marker date="1547302237172" expanded="true" signature="4981:16404" ph="..." />
+            <marker date="1547302237172" expanded="true" signature="15873:16404" ph="..." />
           </folding>
         </state>
       </provider>

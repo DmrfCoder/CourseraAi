@@ -206,17 +206,37 @@ def testLinalgNorm():
 def testCopy():
     print('')
     a = np.array([[1, 2, 3, 4], [5, 6, 7, 8]])
-    b=np.copy(a)
-    c=a
+    b = np.copy(a)
+    c = a
     print(b)
     print(a)
-    b[0][0]=100
+    b[0][0] = 100
     print(a)
-    c[0][0]=101
+    c[0][0] = 101
     print(a)
-    a[0][0]=200
+    a[0][0] = 200
     print(b)
     print(c)
+
+
+def testNpPad():
+    print('')
+    a = np.random.randn(3, 2)
+    #第0轴（行）的左边填1个1，第0轴的右边填2个2
+    b = np.pad(a, ((1, 2), (2, 1)), 'constant', constant_values=((1, 2),(3,4)))
+    print(a)
+    print(b)
+
+def testMeanAverage():
+    print('')
+    a = [1,2,3]
+    c=np.mean(a)
+    d=np.average(a,weights=[0.1,0.2,0.7])
+    print(a)
+    print(c)
+    print(d)
+
+
 
 if __name__ == '__main__':
     # testContourf()
