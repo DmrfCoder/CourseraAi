@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cac0bcf4-1ac4-41c1-9f90-2b4eec3bc60c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ConvolutionModel/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConvolutionModel/cnn_step_by_step.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConvolutionModel/cnn_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConvolutionalNeuralNetworks_Application/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConvolutionalNeuralNetworks_Application/cnn_application.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConvolutionalNeuralNetworks_Application/cnn_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorflowTutorial/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorflowTutorial/improv_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorflowTutorial/tensorflow_tutorial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TensorflowTutorial/tf_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/test_signs.h5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datasets/train_signs.h5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" beforeDir="false" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/codeTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/codeTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConvolutionalNeuralNetworks_Application/cnn_application.py" beforeDir="false" afterPath="$PROJECT_DIR$/ConvolutionalNeuralNetworks_Application/cnn_application.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -90,26 +77,26 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="16" />
-          <entry key="py" value="8003" />
+          <entry key="py" value="8015" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="16" />
-          <entry key="Python" value="8003" />
+          <entry key="Python" value="8015" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="AlchemyModelDependency/#DeepLearning" value="1" />
           <entry key="md" value="6" />
-          <entry key="py" value="116" />
+          <entry key="py" value="117" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="6" />
-          <entry key="Python" value="115" />
+          <entry key="Python" value="116" />
           <entry key="UML" value="2" />
         </counts>
       </usages-collector>
@@ -117,16 +104,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ConvolutionModel/cnn_step_by_step.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="372" lean-forward="true" selection-start-line="349" selection-end-line="372" />
+            <state relative-caret-position="363">
+              <caret line="446" lean-forward="true" selection-start-line="377" selection-end-line="446" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <marker date="1547302237172" expanded="true" signature="846:847" ph="..." />
-                <marker date="1547302237172" expanded="true" signature="4981:16404" ph="..." />
-                <marker date="1547302237172" expanded="true" signature="15873:16404" ph="..." />
+                <marker date="1547302330265" expanded="true" signature="846:847" ph="..." />
+                <marker date="1547302330265" expanded="true" signature="4981:16355" ph="..." />
+                <marker date="1547302330265" expanded="true" signature="15824:16355" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ConvolutionalNeuralNetworks_Application/cnn_application.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="166" lean-forward="true" selection-start-line="166" selection-end-line="166" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+                <marker date="1547303211501" expanded="true" signature="305:939" ph="..." />
+                <marker date="1547303211501" expanded="true" signature="936:937" ph="..." />
+                <marker date="1547303211501" expanded="true" signature="1627:1628" ph="..." />
+                <marker date="1547303211501" expanded="true" signature="3953:4269" ph="..." />
               </folding>
             </state>
           </provider>
@@ -172,8 +175,8 @@
         <option value="$PROJECT_DIR$/TensorflowTutorial/tensorflow_tutorial.py" />
         <option value="$PROJECT_DIR$/codeTest.py" />
         <option value="$PROJECT_DIR$/ConvolutionalNeuralNetworks_Application/cnn_utils.py" />
-        <option value="$PROJECT_DIR$/ConvolutionalNeuralNetworks_Application/cnn_application.py" />
         <option value="$PROJECT_DIR$/ConvolutionModel/cnn_step_by_step.py" />
+        <option value="$PROJECT_DIR$/ConvolutionalNeuralNetworks_Application/cnn_application.py" />
       </list>
     </option>
   </component>
@@ -435,7 +438,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22961374" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22961374" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -449,12 +452,12 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.2554217" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2554217" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info active="true" anchor="right" id="SciView" order="3" visible="true" weight="0.20886981" />
+      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.20886981" />
       <window_info anchor="right" id="Database" order="4" weight="0.3297568" />
     </layout>
   </component>
@@ -796,13 +799,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ConvolutionalNeuralNetworks_Application/cnn_application.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="678">
-          <caret line="355" column="16" selection-start-line="355" selection-start-column="16" selection-end-line="355" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///anaconda3/python.app/Contents/lib/python3.6/site-packages/tensorflow/python/ops/gen_nn_ops.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
@@ -812,13 +808,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ConvolutionModel/cnn_step_by_step.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="372" lean-forward="true" selection-start-line="349" selection-end-line="372" />
+        <state relative-caret-position="363">
+          <caret line="446" lean-forward="true" selection-start-line="377" selection-end-line="446" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
-            <marker date="1547302237172" expanded="true" signature="846:847" ph="..." />
-            <marker date="1547302237172" expanded="true" signature="4981:16404" ph="..." />
-            <marker date="1547302237172" expanded="true" signature="15873:16404" ph="..." />
+            <marker date="1547302330265" expanded="true" signature="846:847" ph="..." />
+            <marker date="1547302330265" expanded="true" signature="4981:16355" ph="..." />
+            <marker date="1547302330265" expanded="true" signature="15824:16355" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConvolutionalNeuralNetworks_Application/cnn_application.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="166" lean-forward="true" selection-start-line="166" selection-end-line="166" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+            <marker date="1547303211501" expanded="true" signature="305:939" ph="..." />
+            <marker date="1547303211501" expanded="true" signature="936:937" ph="..." />
+            <marker date="1547303211501" expanded="true" signature="1627:1628" ph="..." />
+            <marker date="1547303211501" expanded="true" signature="3953:4269" ph="..." />
           </folding>
         </state>
       </provider>
