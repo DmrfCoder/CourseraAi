@@ -1,7 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-
 def func1():
     a = np.random.randn(4, 3)
     b = np.random.randn(1, 3)
