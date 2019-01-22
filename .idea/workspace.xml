@@ -2,13 +2,264 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cac0bcf4-1ac4-41c1-9f90-2b4eec3bc60c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ResidualNetwork/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResidualNetwork/residual_network.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ResidualNetwork/resnets_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FaceRecogonize/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FaceRecogonize/faceRecogonize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FaceRecogonize/fr_utils.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FaceRecogonize/inception_blocks_v2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/images/andrew.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/images/arnaud.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/images/benoit.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/images/bertrand.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/images/camera_0.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/images/camera_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/images/camera_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/images/camera_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/images/camera_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/images/camera_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/images/dan.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/images/danielle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/images/distance_kiank.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/images/distance_matrix.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/images/f_x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/images/felix.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/images/inception_block1a.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/images/kevin.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/images/kian.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/images/pixel_comparison.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/images/sebastiano.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/images/tian.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/images/triplet_comparison.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/images/younes.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/train_face.h5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/bn1_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/bn1_m.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/bn1_v.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/bn1_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/bn2_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/bn2_m.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/bn2_v.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/bn2_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/bn3_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/bn3_m.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/bn3_v.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/bn3_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/conv1_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/conv1_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/conv2_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/conv2_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/conv3_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/conv3_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/dense_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/dense_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3a_1x1_bn_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3a_1x1_bn_m.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3a_1x1_bn_v.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3a_1x1_bn_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3a_1x1_conv_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3a_1x1_conv_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3a_3x3_bn1_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3a_3x3_bn1_m.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3a_3x3_bn1_v.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3a_3x3_bn1_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3a_3x3_bn2_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3a_3x3_bn2_m.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3a_3x3_bn2_v.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3a_3x3_bn2_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3a_3x3_conv1_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3a_3x3_conv1_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3a_3x3_conv2_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3a_3x3_conv2_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3a_5x5_bn1_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3a_5x5_bn1_m.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3a_5x5_bn1_v.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3a_5x5_bn1_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3a_5x5_bn2_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3a_5x5_bn2_m.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3a_5x5_bn2_v.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3a_5x5_bn2_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3a_5x5_conv1_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3a_5x5_conv1_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3a_5x5_conv2_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3a_5x5_conv2_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3a_pool_bn_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3a_pool_bn_m.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3a_pool_bn_v.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3a_pool_bn_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3a_pool_conv_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3a_pool_conv_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3b_1x1_bn_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3b_1x1_bn_m.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3b_1x1_bn_v.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3b_1x1_bn_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3b_1x1_conv_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3b_1x1_conv_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3b_3x3_bn1_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3b_3x3_bn1_m.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3b_3x3_bn1_v.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3b_3x3_bn1_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3b_3x3_bn2_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3b_3x3_bn2_m.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3b_3x3_bn2_v.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3b_3x3_bn2_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3b_3x3_conv1_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3b_3x3_conv1_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3b_3x3_conv2_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3b_3x3_conv2_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3b_5x5_bn1_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3b_5x5_bn1_m.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3b_5x5_bn1_v.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3b_5x5_bn1_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3b_5x5_bn2_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3b_5x5_bn2_m.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3b_5x5_bn2_v.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3b_5x5_bn2_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3b_5x5_conv1_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3b_5x5_conv1_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3b_5x5_conv2_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3b_5x5_conv2_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3b_pool_bn_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3b_pool_bn_m.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3b_pool_bn_v.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3b_pool_bn_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3b_pool_conv_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3b_pool_conv_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3c_3x3_bn1_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3c_3x3_bn1_m.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3c_3x3_bn1_v.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3c_3x3_bn1_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3c_3x3_bn2_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3c_3x3_bn2_m.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3c_3x3_bn2_v.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3c_3x3_bn2_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3c_3x3_conv1_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3c_3x3_conv1_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3c_3x3_conv2_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3c_3x3_conv2_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3c_5x5_bn1_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3c_5x5_bn1_m.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3c_5x5_bn1_v.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3c_5x5_bn1_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3c_5x5_bn2_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3c_5x5_bn2_m.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3c_5x5_bn2_v.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3c_5x5_bn2_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3c_5x5_conv1_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3c_5x5_conv1_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3c_5x5_conv2_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_3c_5x5_conv2_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4a_1x1_bn_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4a_1x1_bn_m.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4a_1x1_bn_v.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4a_1x1_bn_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4a_1x1_conv_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4a_1x1_conv_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4a_3x3_bn1_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4a_3x3_bn1_m.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4a_3x3_bn1_v.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4a_3x3_bn1_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4a_3x3_bn2_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4a_3x3_bn2_m.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4a_3x3_bn2_v.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4a_3x3_bn2_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4a_3x3_conv1_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4a_3x3_conv1_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4a_3x3_conv2_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4a_3x3_conv2_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4a_5x5_bn1_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4a_5x5_bn1_m.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4a_5x5_bn1_v.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4a_5x5_bn1_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4a_5x5_bn2_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4a_5x5_bn2_m.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4a_5x5_bn2_v.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4a_5x5_bn2_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4a_5x5_conv1_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4a_5x5_conv1_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4a_5x5_conv2_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4a_5x5_conv2_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4a_pool_bn_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4a_pool_bn_m.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4a_pool_bn_v.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4a_pool_bn_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4a_pool_conv_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4a_pool_conv_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4e_3x3_bn1_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4e_3x3_bn1_m.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4e_3x3_bn1_v.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4e_3x3_bn1_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4e_3x3_bn2_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4e_3x3_bn2_m.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4e_3x3_bn2_v.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4e_3x3_bn2_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4e_3x3_conv1_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4e_3x3_conv1_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4e_3x3_conv2_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4e_3x3_conv2_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4e_5x5_bn1_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4e_5x5_bn1_m.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4e_5x5_bn1_v.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4e_5x5_bn1_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4e_5x5_bn2_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4e_5x5_bn2_m.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4e_5x5_bn2_v.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4e_5x5_bn2_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4e_5x5_conv1_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4e_5x5_conv1_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4e_5x5_conv2_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_4e_5x5_conv2_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5a_1x1_bn_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5a_1x1_bn_m.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5a_1x1_bn_v.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5a_1x1_bn_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5a_1x1_conv_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5a_1x1_conv_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5a_3x3_bn1_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5a_3x3_bn1_m.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5a_3x3_bn1_v.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5a_3x3_bn1_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5a_3x3_bn2_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5a_3x3_bn2_m.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5a_3x3_bn2_v.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5a_3x3_bn2_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5a_3x3_conv1_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5a_3x3_conv1_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5a_3x3_conv2_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5a_3x3_conv2_m.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5a_3x3_conv2_v.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5a_3x3_conv2_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5a_pool_bn_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5a_pool_bn_m.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5a_pool_bn_v.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5a_pool_bn_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5a_pool_conv_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5a_pool_conv_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5b_1x1_bn_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5b_1x1_bn_m.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5b_1x1_bn_v.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5b_1x1_bn_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5b_1x1_conv_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5b_1x1_conv_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5b_3x3_bn1_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5b_3x3_bn1_m.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5b_3x3_bn1_v.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5b_3x3_bn1_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5b_3x3_bn2_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5b_3x3_bn2_m.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5b_3x3_bn2_v.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5b_3x3_bn2_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5b_3x3_conv1_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5b_3x3_conv1_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5b_3x3_conv2_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5b_3x3_conv2_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5b_pool_bn_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5b_pool_bn_m.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5b_pool_bn_v.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5b_pool_bn_w.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5b_pool_conv_b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datasets/weights/inception_5b_pool_conv_w.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/DeepLearning.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DeepLearning.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KerasTutorialHappyHouse/happy_house.py" beforeDir="false" afterPath="$PROJECT_DIR$/KerasTutorialHappyHouse/happy_house.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +284,7 @@
     <SUITE FILE_PATH="coverage/DeepLearning$Regularization.coverage" NAME="Regularization Coverage Results" MODIFIED="1544700333767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Regularization" />
     <SUITE FILE_PATH="coverage/DeepLearning$residual_network.coverage" NAME="residual_network Coverage Results" MODIFIED="1547822128745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ResidualNetwork" />
     <SUITE FILE_PATH="coverage/DeepLearning$pytest_for_deep_netural_network_test_initialize_parameters.coverage" NAME="pytest for deep_netural_network.test_initialize_parameters Coverage Results" MODIFIED="1542673467204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepNeuralNetWork" />
+    <SUITE FILE_PATH="coverage/DeepLearning$faceRecogonize.coverage" NAME="faceRecogonize Coverage Results" MODIFIED="1547999235409" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/FaceRecogonize" />
     <SUITE FILE_PATH="coverage/DeepLearning$pytest_for_deep_netural_network_test_linear_activation_forward.coverage" NAME="pytest for deep_netural_network.test_linear_activation_forward Coverage Results" MODIFIED="1542963765008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepNeuralNetWork" />
     <SUITE FILE_PATH="coverage/DeepLearning$initalization.coverage" NAME="initalization Coverage Results" MODIFIED="1544683301266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Initialization" />
     <SUITE FILE_PATH="coverage/DeepLearning$cnn_application.coverage" NAME="cnn_application Coverage Results" MODIFIED="1547125232541" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/ConvolutionalNeuralNetworks_Application" />
@@ -46,7 +298,7 @@
     <SUITE FILE_PATH="coverage/DeepLearning$Planar_data_classification_with_one_hidden_layer_v5.coverage" NAME="Planar_data_classification_with_one_hidden_layer_v5 Coverage Results" MODIFIED="1543590321139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Planar" />
     <SUITE FILE_PATH="coverage/DeepLearning$pytest_for_deep_netural_network_test_linear_backward.coverage" NAME="pytest for deep_netural_network.test_linear_backward Coverage Results" MODIFIED="1542965485359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepNeuralNetWork" />
     <SUITE FILE_PATH="coverage/DeepLearning$pytest_in_deep_netural_network_py.coverage" NAME="pytest in deep_netural_network.py Coverage Results" MODIFIED="1542963248590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepNeuralNetWork" />
-    <SUITE FILE_PATH="coverage/DeepLearning$happy_house.coverage" NAME="happy_house Coverage Results" MODIFIED="1547864072047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KerasTutorialHappyHouse" />
+    <SUITE FILE_PATH="coverage/DeepLearning$happy_house.coverage" NAME="happy_house Coverage Results" MODIFIED="1547883460808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/KerasTutorialHappyHouse" />
     <SUITE FILE_PATH="coverage/DeepLearning$pytest_for_deep_netural_network_test_linear_forward.coverage" NAME="pytest for deep_netural_network.test_linear_forward Coverage Results" MODIFIED="1542963257998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepNeuralNetWork" />
     <SUITE FILE_PATH="coverage/DeepLearning$deep_netural_network_for_image_classification.coverage" NAME="deep_netural_network_for_image_classification Coverage Results" MODIFIED="1544496288651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DeepNeuralNetWork" />
     <SUITE FILE_PATH="coverage/DeepLearning$pytest_for_codeTest_testCopy.coverage" NAME="pytest for codeTest.testCopy Coverage Results" MODIFIED="1544749762021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -67,24 +319,15 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/KerasTutorialHappyHouse/happy_house.py">
+        <entry file="file://$PROJECT_DIR$/FaceRecogonize/faceRecogonize.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="278">
-              <caret line="104" column="32" lean-forward="true" selection-start-line="95" selection-start-column="4" selection-end-line="104" selection-end-column="32" />
+            <state relative-caret-position="310">
+              <caret line="78" column="42" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="42" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#35#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/anaconda3/envs/python36/lib/python3.6/site-packages/matplotlib/pyplot.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="2689" column="4" selection-start-line="2689" selection-start-column="4" selection-end-line="2689" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -102,6 +345,7 @@
     <findStrings>
       <find>init</find>
       <find>add</find>
+      <find>model</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -142,11 +386,15 @@
         <option value="$PROJECT_DIR$/ResidualNetwork/residual_network.py" />
         <option value="$PROJECT_DIR$/ConvolutionModel/__init__.py" />
         <option value="$PROJECT_DIR$/KerasTutorialHappyHouse/happy_house.py" />
+        <option value="$PROJECT_DIR$/FaceRecogonize/inception_blocks_v2.py" />
+        <option value="$PROJECT_DIR$/FaceRecogonize/fr_utils.py" />
+        <option value="$PROJECT_DIR$/FaceRecogonize/faceRecogonize.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="width" value="1440" />
+    <option name="x" value="730" />
+    <option name="width" value="710" />
     <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -157,6 +405,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -167,7 +416,22 @@
             <path>
               <item name="DeepLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="DeepLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="ConvolutionModel" type="462c0819:PsiDirectoryNode" />
+              <item name="datasets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeepLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeepLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="DeepNeuralNetWork" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeepLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeepLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="FaceRecogonize" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DeepLearning" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DeepLearning" type="462c0819:PsiDirectoryNode" />
+              <item name="GradientChecking" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DeepLearning" type="b2602c69:ProjectViewProjectNode" />
@@ -177,13 +441,12 @@
             <path>
               <item name="DeepLearning" type="b2602c69:ProjectViewProjectNode" />
               <item name="DeepLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="TensorflowTutorial" type="462c0819:PsiDirectoryNode" />
+              <item name="ResidualNetwork" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -194,16 +457,16 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/datasets" />
+      <recent name="$PROJECT_DIR$/datasets/images" />
+      <recent name="$PROJECT_DIR$/FaceRecogonize" />
+      <recent name="$PROJECT_DIR$/ResidualNetwork" />
+      <recent name="$PROJECT_DIR$/KerasTutorialHappyHouse" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/Planar" />
       <recent name="$PROJECT_DIR$/Logistic" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ResidualNetwork" />
-      <recent name="$PROJECT_DIR$/KerasTutorialHappyHouse" />
-      <recent name="$PROJECT_DIR$/datasets" />
-      <recent name="$PROJECT_DIR$/ConvolutionalNeuralNetworks_Application" />
-      <recent name="$PROJECT_DIR$/ConvolutionModel" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -218,7 +481,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.happy_house">
+  <component name="RunManager" selected="Python.faceRecogonize">
     <configuration name="cnn_application" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DeepLearning" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -255,6 +518,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ConvolutionModel/cnn_step_by_step.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="faceRecogonize" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DeepLearning" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/FaceRecogonize" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/FaceRecogonize/faceRecogonize.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -307,36 +592,20 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for codeTest.testMeanAverage" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="DeepLearning" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;codeTest.testMeanAverage&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <list>
       <item itemvalue="Python.cnn_application" />
       <item itemvalue="Python.cnn_step_by_step" />
       <item itemvalue="Python.happy_house" />
       <item itemvalue="Python.residual_network" />
-      <item itemvalue="Python tests.pytest for codeTest.testMeanAverage" />
+      <item itemvalue="Python.faceRecogonize" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.faceRecogonize" />
         <item itemvalue="Python.happy_house" />
         <item itemvalue="Python.residual_network" />
         <item itemvalue="Python.cnn_application" />
         <item itemvalue="Python.cnn_step_by_step" />
-        <item itemvalue="Python tests.pytest for codeTest.testMeanAverage" />
       </list>
     </recent_temporary>
   </component>
@@ -354,7 +623,16 @@
       <workItem from="1547713463939" duration="1153000" />
       <workItem from="1547732901454" duration="2274000" />
       <workItem from="1547821063447" duration="3083000" />
-      <workItem from="1547862080700" duration="1791000" />
+      <workItem from="1547862080700" duration="2520000" />
+      <workItem from="1547878509674" duration="782000" />
+      <workItem from="1547880038822" duration="2470000" />
+      <workItem from="1547884831326" duration="1259000" />
+      <workItem from="1547886765637" duration="1981000" />
+      <workItem from="1547909966643" duration="3000" />
+      <workItem from="1547912756170" duration="234000" />
+      <workItem from="1547944692815" duration="4475000" />
+      <workItem from="1547968636292" duration="10000" />
+      <workItem from="1547991613726" duration="4492000" />
     </task>
     <servers />
   </component>
@@ -391,19 +669,19 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8317000" />
+    <option name="totallyTimeSpent" value="24752000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17596567" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21316166" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4506024" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.42771083" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41445783" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3493976" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -411,103 +689,30 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.19156626" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.35180724" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.2553648" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.37124464" />
       <window_info anchor="right" id="Database" order="4" weight="0.3297568" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/FaceRecogonize/faceRecogonize.py</url>
+          <line>78</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm2018.2/python_stubs/-849347325/numpy/random/mtrand.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="2079" column="4" selection-start-line="2079" selection-start-column="4" selection-end-line="2079" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Regularization/testCases.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Regularization/reg_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="242" selection-start-line="242" selection-end-line="242" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GradientChecking/testCases.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file:///anaconda3/python.app/Contents/lib/python3.6/site-packages/numpy/linalg/linalg.py" />
-    <entry file="file://$PROJECT_DIR$/Logistic/Logistic_Regression_With_a_Neural_Network_mindset_v5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="466">
-          <caret line="262" selection-start-line="262" selection-end-line="262" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Logistic/Logistic Regression with a Neural Network mindset.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret column="51" lean-forward="true" selection-start-column="2" selection-end-column="51" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GradientChecking/gradient_checking.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2565">
-          <caret line="173" column="12" selection-start-line="173" selection-start-column="12" selection-end-line="173" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Regularization/regularization.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3735">
-          <caret line="258" column="65" selection-start-line="258" selection-start-column="65" selection-end-line="258" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OptimizationMethods/testCases.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/OptimizationMethods/opt_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="150" selection-start-line="150" selection-end-line="150" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///anaconda3/python.app/Contents/lib/python3.6/site-packages/tensorflow/python/ops/gen_math_ops.py" />
-    <entry file="file:///anaconda3/python.app/Contents/lib/python3.6/site-packages/tensorflow/python/ops/array_ops.py" />
-    <entry file="file://$PROJECT_DIR$/TensorflowTutorial/tf_utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="960">
-          <caret line="67" column="4" selection-start-line="67" selection-start-column="4" selection-end-line="67" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///anaconda3/python.app/Contents/lib/python3.6/site-packages/numpy/core/fromnumeric.py" />
-    <entry file="file:///anaconda3/python.app/Contents/lib/python3.6/site-packages/numpy/lib/function_base.py" />
     <entry file="file:///anaconda3/python.app/Contents/lib/python3.6/site-packages/_pytest/_code/__init__.py" />
     <entry file="file://$PROJECT_DIR$/ConvolutionalNeuralNetworks_Application/cnn_utils.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -569,13 +774,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DeepNeuralNetWork/dnn_app_utils_v3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2558">
-          <caret line="177" column="20" selection-start-line="177" selection-start-column="20" selection-end-line="177" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/DeepNeuralNetWork/dnn_utils_v2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -617,34 +815,10 @@
     <entry file="file:///anaconda3/python.app/Contents/lib/python3.6/site-packages/keras/engine/training.py" />
     <entry file="file:///anaconda3/python.app/Contents/lib/python3.6/site-packages/keras/engine/network.py" />
     <entry file="file:///anaconda3/python.app/Contents/lib/python3.6/site-packages/keras/engine/base_layer.py" />
-    <entry file="file://$USER_HOME$/anaconda3/envs/python36/lib/python3.6/site-packages/keras/layers/convolutional.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="2201" column="8" selection-start-line="2201" selection-start-column="8" selection-end-line="2201" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/envs/python36/lib/python3.6/site-packages/keras/engine/network.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="1324" selection-start-line="1324" selection-end-line="1324" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/envs/python36/lib/python3.6/site-packages/tensorflow/python/framework/ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="1630" selection-start-line="1630" selection-end-line="1630" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/anaconda3/envs/python36/lib/python3.6/site-packages/keras/engine/training.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/python36/lib/python3.6/site-packages/keras/layers/convolutional.py" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/python36/lib/python3.6/site-packages/keras/engine/network.py" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/python36/lib/python3.6/site-packages/tensorflow/python/framework/ops.py" />
+    <entry file="file://$USER_HOME$/anaconda3/envs/python36/lib/python3.6/site-packages/keras/engine/training.py" />
     <entry file="file://$PROJECT_DIR$/ConvolutionModel/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -652,12 +826,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ResidualNetwork/residual_network.py">
+    <entry file="file://$PROJECT_DIR$/KerasTutorialHappyHouse/HappyModel.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$USER_HOME$/anaconda3/envs/python36/lib/python3.6/site-packages/matplotlib/pyplot.py" />
+    <entry file="file://$PROJECT_DIR$/KerasTutorialHappyHouse/happy_house.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="242" selection-start-line="242" selection-end-line="242" />
+        <state relative-caret-position="15">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ResidualNetwork/residual_network.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" selection-end-column="36" />
+          <folding>
             <marker date="1547825217840" expanded="true" signature="2955:2956" ph="..." />
             <marker date="1547825217840" expanded="true" signature="5757:9795" ph="..." />
             <marker date="1547825217840" expanded="true" signature="8791:9795" ph="..." />
@@ -665,22 +852,119 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/anaconda3/envs/python36/lib/python3.6/site-packages/matplotlib/pyplot.py">
+    <entry file="file://$PROJECT_DIR$/DeepNeuralNetWork/dnn_app_utils_v3.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="2689" column="4" selection-start-line="2689" selection-start-column="4" selection-end-line="2689" selection-end-column="4" />
+        <state relative-caret-position="1290">
+          <caret line="88" column="63" selection-start-line="88" selection-start-column="45" selection-end-line="88" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/KerasTutorialHappyHouse/HappyModel.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/KerasTutorialHappyHouse/happy_house.py">
+    <entry file="file://$PROJECT_DIR$/GradientChecking/gradient_checking.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="104" column="32" lean-forward="true" selection-start-line="95" selection-start-column="4" selection-end-line="104" selection-end-column="32" />
+        <state relative-caret-position="2565">
+          <caret line="173" column="12" selection-start-line="173" selection-start-column="12" selection-end-line="173" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="786" selection-start-line="786" selection-end-line="786" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/gen_math_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8388" selection-start-line="8388" selection-end-line="8388" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="487" selection-start-line="487" selection-end-line="487" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/lib/python3.6/site-packages/tensorflow/python/ops/linalg_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="548" selection-start-line="548" selection-end-line="548" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/lib/python3.6/site-packages/keras/engine/training_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="403" selection-start-line="403" selection-end-line="403" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceRecogonize/inception_blocks_v2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="52" lean-forward="true" selection-start-line="10" selection-start-column="52" selection-end-line="10" selection-end-column="52" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/lib/python3.6/site-packages/tensorflow/python/framework/ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="1630" selection-start-line="1630" selection-end-line="1630" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/lib/python3.6/site-packages/keras/engine/training.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="340" selection-start-line="340" selection-end-line="340" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///anaconda3/lib/python3.6/site-packages/numpy/lib/npyio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="2030" selection-start-line="2030" selection-end-line="2030" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/weights/conv1_w.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-46" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/weights/conv1_b.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/weights/bn3_v.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/weights/bn1_m.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/weights/bn1_b.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceRecogonize/fr_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="824">
+          <caret line="191" column="36" selection-start-line="191" selection-start-column="36" selection-end-line="191" selection-end-column="36" />
+          <folding>
+            <element signature="e#132#155#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FaceRecogonize/faceRecogonize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="78" column="42" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
