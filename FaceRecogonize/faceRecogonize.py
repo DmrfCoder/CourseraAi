@@ -22,6 +22,10 @@ from matplotlib.pyplot import imshow
 
 np.set_printoptions(threshold=np.nan)
 
+import os
+
+os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
+
 
 # GRADED FUNCTION: triplet_loss
 
@@ -70,15 +74,6 @@ def demo_triplet_loss():
         loss = triplet_loss(y_true, y_pred)
 
         print("loss = " + str(loss.eval()))
-
-
-def load_dataset():
-    database = {}
-    database["danielle"] = "a"
-    database["younes"] = "b"
-    for (name, db_enc) in database.items():
-        print(name,db_enc)
-
 
 
 # GRADED FUNCTION: verify
@@ -171,16 +166,25 @@ def who_is_it(image_path, database, model):
     return min_dist, identity
 
 
-def demo_fr(database):
-    who_is_it("images/camera_0.jpg", database, FRmodel)
+#
+# def demo_fr(database):
+#     who_is_it("images/camera_0.jpg", database, FRmodel)
+
 
 
 if __name__ == '__main__':
-    # demo_triplet_loss()
-    # FRmodel = faceRecoModel(input_shape=(3, 96, 96))
-    # print("Total Params:", FRmodel.count_params())
-    # FRmodel.compile(optimizer='adam', loss=triplet_loss, metrics=['accuracy'])
-    # load_weights_from_FaceNet(FRmodel)
-    # database = load_dataset()
-    # verify("../datasets/images/camera_0.jpg", "younes", database, FRmodel)
-    load_dataset()
+    FRmodel = faceRecoModel(input_shape=(3, 96, 96))
+    print("Total Params:", FRmodel.count_params())
+    FRmodel.compile(optimizer='adam', loss=triplet_loss, metrics=['accuracy'])
+    load_weights_from_FaceNet(FRmodel)
+    database = {}
+
+    database["arnaud"] = img_to_encoding("../datasets/images/arnaud.jpg", FRmodel)
+
+    img1 = cv2.imread('../datasets/images/arnaud.jpg', 1)
+    img = img1[..., ::-1]
+    img = np.around(np.transpose(img, (2, 0, 1)) / 255.0, decimals=12)
+    x_train = np.array([img])
+    FRmodel.fit(x_train, database["arnaud"])
+
+    #verify("../datasets/images/camera_0.jpg", "younes", database, FRmodel)

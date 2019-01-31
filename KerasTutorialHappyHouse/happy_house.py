@@ -79,6 +79,7 @@ if __name__ == '__main__':
 
     # create the model.
     happyModel = HappyModel(X_train[0].shape)
+
     #
     '''
     loss:use binary_crossentropy loss function for the binary classification 
